@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/layout.css" media="screen"/>
+</head>
+<body>
+<!--<div>定义 HTML 文档中的一个分隔区块或者一个区域部分。-->
+<div>
+    <!--<h1> - <h6> 标签可定义标题。<h1> 定义最大的标题。<h6> 定义最小的标题。-->
+    <h1>Snapshots</h1>
+    <!--<ul> 标签定义无序列表。-->
+    <ul>
+        <!--<li> 标签定义列表项目-->
+        <li>
+            <!--<a>标签定义超链接，用于从一张页面链接到另一张页面。
+            href:规定链接指向的页面的 URL-->
+            <a href="images/img_1.jpg" title="first image" onclick="showPic(this);return false;">First</a>
+        </li>
+        <li>
+            <a href="images/img_2.jpg" title="second image" onclick="showPic(this);return false;">Second</a>
+        </li>
+        <li>
+            <a href="images/img_3.jpg" title="third image" onclick="showPic(this);return false;">Third</a>
+        </li>
+        <li>
+            <a href="images/img_4.jpg" title="forth image" onclick="showPic(this);return false;">Forth</a>
+        </li>
+        <li>
+            <a href="images/img_5.jpg" title="fifth image" onclick="showPic(this);return false;">Fifth</a>
+        </li>
+    </ul>
+    <!--<img> 标签创建的是被引用图像的占位空间。
+    必需的属性
+    src:规定显示图像的 URL。
+    alt:规定图像的替代文本。-->
+    <img id="placeholder" src="images/img_8.jpg" alt="占位"/>
+
+    <!-- <p> 标签定义段落。p 元素会自动在其前后创建一些空白。浏览器会自动添加这些空间。-->
+    <p id="description">这里是图片的描述</p>
+    <p id="display_person">这里是图片的描述</p>
+
+</div>
+<script type="text/javascript" src="js/learn.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
